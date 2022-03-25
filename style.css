@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Poppins:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Acme', sans-serif;
+    background-color: #fbebaf;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1{
+    margin-top: 10px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin-top: -15px;
+}
+
+.container{
+    margin:50px auto 0;
+    max-width: 240px;
+    padding: 15px;
+    background-color: #1c8080;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.celula{
+    width: 75px;
+    height: 65px;
+    font-size: 30pt;
+    margin: 4px 2px;
+    font-weight: 300;
+    padding-top: 10px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #74bf9d
+}
+
+.classe-resultado{
+   margin-top: 50px; 
+}
+
+#resultado{
+    font-size: 23pt;
+    display: none;
+    background-color: #74bf9d;
+} 
+
+.classe-botao{
+    display: flex;
+    justify-content: center;
+}
+
+#botao{
+    background-color: #1c8080;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    color:black;
+    font-weight: 500;
+    font-size: 16pt;
+    font-family: 'Acme';
+    border: 0.2 solid;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: none;
+}
+
+#botao:hover{
+    background-color: #74bf9d;
+}
